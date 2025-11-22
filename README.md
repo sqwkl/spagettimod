@@ -18,3 +18,11 @@ A compact 40% hand-wired mechanical keyboard firmware for Arduino Pro Micro with
 - **Diodes**: 1N4148 (or similar)
 - **Layout**: 40% (47 keys)
 - **Connectivity**: USB Type-С
+
+## Bootloader
+
+Enter the bootloader in 3 ways:
+
+* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is configured.
+* **Physical reset button**: Briefly press the reset button soldered on the PCB.
+* **Bootmagic reset**: Hold down the top left key and plug in the controller.
